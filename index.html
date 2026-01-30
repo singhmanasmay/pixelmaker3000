@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MY FINAL PROJECT PLS PASS ME</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <marquee scrollamount="20">WELCOME TO MY COOL WEB SITE !!!!!!!!!!! CLICK BUTTONS 2 DRAW !!!!!!!</marquee>
+
+    <br><br>
+
+    <h1>MY SUPER COOL PIXEL MAKER 3000</h1>
+    <h3 style="text-align:center; color: red; background: white;">(c) me 2026 dont steal</h3>
+
+    <div class="MainBox">
+        <div class="tools-area">
+            <h2>TOOLS HERE:</h2>
+            <button class="tool-btn" data-tool="pencil">Pencil ✏️</button>
+            <button class="tool-btn" data-tool="eraser">Rubber 🧼</button>
+            <button class="tool-btn" data-tool="bucket">Splash 🌊</button>
+            <button class="tool-btn" data-tool="dropper">Steal Color 💉</button>
+            <br><br>
+            
+            COLOR: <input type="color" id="color-picker">
+            <br><br>
+            
+            PRESETS: 
+            <div id="palette-presets" style="display:inline-block; border: 2px solid white;"></div>
+            
+            <br><br>
+            SIZE: 
+            <input type="number" id="grid-width" value="10"> X 
+            <input type="number" id="grid-height" value="10">
+            <button id="create-grid-btn">MAKE GRID !!!</button>
+            
+            <br><br>
+            <button id="clear-btn" style="background:red; color:white;">DELETE EVERYTHING</button>
+            <button id="export-btn">SAVE PICTURE</button>
+            <button id="save-btn">SAVE TO GALLERY</button>
+        </div>
+
+        <center>
+            <div id="canvas-container">
+            <!-- GRID GOES HERE -->
+            </div>
+        </center>
+    </div>
+
+    <div class="gallery-thing">
+        <marquee direction="right">GALLERY (DOES IT WORK IDK)</marquee>
+        <div id="gallery-count">0 things saved lol</div>
+        <div id="gallery-list"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
