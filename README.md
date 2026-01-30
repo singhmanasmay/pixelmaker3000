@@ -72,5 +72,6 @@ The User Interface employs a **"Maximalist Retro-Chaos"** aesthetic (Marquees, c
 
 ---
 
-**Student Name**: [Your Name]
+**Student Name**: Manasmay/25bcs10479
 **Marks Expected**: 100 (pls)
+
